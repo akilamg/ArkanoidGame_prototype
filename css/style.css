@@ -1,0 +1,55 @@
+*
+{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+
+
+body 
+{
+	background-color:#000000;
+    color:#ffffff;
+    font:13px Arial,sans-serif;
+
+}
+
+header h3
+{
+	text-indent:50px;
+	text-decoration: underline;
+	background-color:#212121;
+    box-shadow: 0 1px 2px #111111;
+    display:block;
+    position:absolute;
+    left:900px;
+	top:600px;
+	width:475px;
+	height:25px;
+	
+}
+
+header ul
+{
+
+	list-style:none;
+	background-color:#212121;
+    box-shadow: 0 1px 2px #111111;
+    display:block;
+    position:absolute;
+    left:900px;
+	top:10px;
+	width:435px;
+	height:590px;
+}
+
+
+.container
+ {
+    margin: 20px auto;
+    overflow: hidden;
+    position: absolute;
+	left:20px;
+   	 
+}
+
+
