@@ -12,7 +12,7 @@ function makeCanvas()
 	var X = -1;
 	var indexX = 0;
 	var indexY = 0;
-	var level = 3;
+	var level = 5;
 	var tileW = 84;
 	var tileH = 30;
 	var PadH = 25;
@@ -107,7 +107,7 @@ function makeGrid(){
 	document.getElementById("score").innerHTML = txt.bold().fontsize(4.75);
 	txt = "MAX SCORE: "+ MaxScore;
 	document.getElementById("maxscore").innerHTML = txt.fontsize(4.75).bold();
-	txt = "LEVEL: "+ (level - 2);
+	txt = "LEVEL: "+ (level - 4);
 	document.getElementById("level").innerHTML = txt.fontsize(4.75).bold();
 	
 	ctx.fillStyle="black";
